@@ -15,11 +15,13 @@ html{                                   /*tamaño de la estructra y forma caja*/
     scroll-snap-type: y mandatory;      /*definir para que el scroll sea en el eje y*/
 }
 
+
 /*Scroll snap*/
 .servicios, .navegacion-pincipal, .formulario{
     scroll-snap-align: center;              /*alinear*/
     scroll-snap-stop: always;               /*para que se detenga en una sección siempre*/
 }
+
 
 *, *:before, *:after {
     box-sizing: inherit;
